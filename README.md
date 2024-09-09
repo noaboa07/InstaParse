@@ -1,6 +1,6 @@
 # Lab 2 - *BeReal Clone PT 1*
 
-Submitted by: **Noah Russell**
+Submitted by: **Noah Russell** ZNumber: **Z23667779**
 
 **BeReal Clone PT 1** is the first part of a two-part project which clones some of the main functionalities of the trending app called BeReal. In this app, users post a photo of what they’re currently doing upon receiving a random notification during the day. Only after posting a photo can the user see their friends’ photos.
 
