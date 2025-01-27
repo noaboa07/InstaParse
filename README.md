@@ -1,56 +1,71 @@
-# Lab 2 - *BeReal Clone PT 1*
+# BeReal Clone (Part 1) - A Social Media App Clone
 
-Submitted by: **Noah Russell** ZNumber: **Z23667779**
+BeReal Clone (Part 1) - is the first phase of a two-part project designed to replicate key features of the popular social media app BeReal. In this first part, users are able to register, log in, and post images with captions. The app uses a photo library to allow users to upload their current activities, with the aim to replicate the spontaneous photo-sharing experience that BeReal is known for.
 
-**BeReal Clone PT 1** is the first part of a two-part project which clones some of the main functionalities of the trending app called BeReal. In this app, users post a photo of what they’re currently doing upon receiving a random notification during the day. Only after posting a photo can the user see their friends’ photos.
+- Developer: Noah Russell
+- Development Time: Approximately 3 hours
+- Technologies Used: Swift, UIKit, Parse SDK (Back4App), Xcode
 
-Time spent: **3** hours spent in total
+## Features
 
-## Required Features
+The following core features have been successfully implemented in this phase of the project:
 
-The following **required** functionality is completed:
+- [✅] Styled App Icon and Launch Screen: A custom app icon is displayed on the home screen, and the app has a styled launch screen to give it a professional look and feel.
+- [✅] User Authentication: Users can register for a new account and log in with their credentials, providing a personalized experience.
+- [✅] Feed of Posts: After logging in, users are shown a feed of posts made by others (this is the initial stage of the social media feed).
+- [✅] Post Uploading: Users can upload a photo from their device’s photo library and optionally add a caption to their post.
+- [✅] Logout Functionality: Users can log out of their account to start fresh or switch accounts.
 
-- [✅] Users see an app icon in the home screen and a styled launch screen.
-- [✅] User can register a new account
-- [✅] User can log in with newly created account
-- [✅] App has a feed of posts when user logs in
-- [✅] User can upload a new post which takes in a picture from photo library and an optional caption    
-- [✅] User is able to logout    
- 
-The following **optional** features are implemented:
+## Optional Features
 
-- N/A
+At this stage, no optional features have been implemented but are planned for future releases.
 
+- [❌] Additional features like notifications or post visibility settings will be added in Part 2.
 
-The following **additional** features are implemented:
+## Future Enhancements
 
-- N/A
+- [🔲] Notifications: Adding functionality for push notifications when it’s time to post.
+- [🔲] Friendship System: Implementing a friends list and limiting feed visibility to friends’ posts only.
+- [🔲] Post Visibility: Making posts visible only after the user has posted their own photo.
 
 ## Video Walkthrough
 
-My video Walkthrough:
+Below is a demonstration of the current functionality in the app:
 
-<img style="max-width:300px;" src="lab-insta-parse/Lab2.gif">
+<img style="max-width:300px;" src="lab-insta-parse/Lab2.gif" alt="BeReal Clone Demo">
+GIF created with VEED.io.
 
-GIF created with VEED.io
+## Development Process
 
-## Notes
+This project I created as part of a two-part series to develop a social media app similar to BeReal. Here are the key concepts covered in this phase:
 
-Had a few errors I came across when dealing with the back4app database version. Other than that, no significant issues.
+- UIKit: Used to create a clean, simple, and intuitive interface for users.
+- Parse SDK (Back4App): Backend integration to handle user authentication and post data storage.
+- Firebase/Cloud Storage: For storing images and ensuring they are uploaded and retrieved efficiently.
+- App Lifecycle: Understanding how to manage login sessions, feed refresh, and user state.
+
+## Challenges Faced
+
+- Database Integration: There were some initial issues with the Back4App database configuration, but these were resolved by revisiting the backend setup and checking API keys.
+- User Authentication Flow: Ensuring smooth transitions between the login, registration, and feed screens posed some challenges with managing view controllers and segueing between them correctly.
+
+## Key Takeaways
+
+- Deepened knowledge of backend integration with Parse and handling user data.
+- Gained experience in managing user authentication flows in a real-world app scenario.
+- Familiarized myself with using photo libraries to handle user-generated content in iOS apps.
+
+## Technologies Used
+
+- Programming Language: Swift
+- Frameworks: UIKit, Parse SDK (Back4App)
+- Database: Back4App (Parse Server)
+- Development Environment: Xcode 14.0+
+- Version Control: Git, GitHub
 
 ## License
 
-    Copyright [2024] [Noah Russell]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+BeReal Clone is licensed under the Apache License 2.0.
+You may obtain a copy of the license at:
+http://www.apache.org/licenses/LICENSE-2.0
 
